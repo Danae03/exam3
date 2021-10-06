@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #282828;
+}
+.drumpad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+}
+.pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    flex: 1 0 calc(33.333% - 90px);
+    background: radial-gradient(#b9a6c9, #cc46d1);
+    border-radius: 10px;
+}
